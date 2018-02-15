@@ -1,0 +1,36 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 16px;
+}
+
+.margin {
+    margin-top: 3000px;
+}
+
+.refresh-btn {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 5px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+
+.hello {
+    background: gray;
+    color: red;
+}
